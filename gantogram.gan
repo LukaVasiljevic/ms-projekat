@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Sistem za upravljanje robotskom rukom pomoću step ili servo motora" company="Luka Vasiljević 51/2018" webLink="http://" view-date="2022-01-31" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3103" locale="en_US">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#006699 #990000 #669900]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="1. Definisanje projekta" color="#669900" meeting="false" start="2022-02-10" duration="2" complete="0" thirdDate="2022-02-10" thirdDate-constraint="0" expand="true">
+            <task id="4" name="1.1 Prikupljanje i analiza neophodnih podataka" meeting="false" start="2022-02-10" duration="2" complete="0" expand="true"/>
+            <task id="5" name="1.2. Definisanje principa rada - hardver i softver" meeting="false" start="2022-02-10" duration="2" complete="0" expand="true"/>
+            <task id="6" name="1.3. Definisanje potrebnih komponenti (pri realizaciji)" meeting="false" start="2022-02-11" duration="1" complete="0" expand="true"/>
+            <task id="7" name="1.4. Nabavka potrebnih komponenti (pri realizaciji)" meeting="false" start="2022-02-11" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="1" name="2. Realizacija projekta" color="#990000" meeting="false" start="2022-02-11" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true">
+            <task id="9" name="2.1. Projektovanje sistema - softverski algoritam" meeting="false" start="2022-02-11" duration="2" complete="0" expand="true"/>
+            <task id="11" name="2.2. Montiranje senzora (u slučaju realizacije)" meeting="false" start="2022-02-11" duration="2" complete="0" expand="true"/>
+            <task id="12" name="2.3. Izrada sistema - programiranje softvera" meeting="false" start="2022-02-11" duration="2" complete="0" expand="true"/>
+            <task id="13" name="2.4. Izrada sistema - refaktorizacija i dorada koda" meeting="false" start="2022-02-14" duration="1" complete="0" expand="true"/>
+            <task id="14" name="2.5. Testiranje sistema - nalaženje i otklanjanje grešaka" meeting="false" start="2022-02-14" duration="1" complete="0" expand="true"/>
+            <task id="15" name="2.6. Prilagođavanje hardvera (pri realizaciji)" meeting="false" start="2022-02-14" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="2" name="3. Finalizacija projekta" color="#006699" meeting="false" start="2022-02-14" duration="2" complete="0" thirdDate="2022-02-14" thirdDate-constraint="0" expand="true">
+            <task id="17" name="3.1. Završetak izrade sistema - finalna provera rada sistema" meeting="false" start="2022-02-14" duration="2" complete="0" expand="true"/>
+            <task id="19" name="3.2. Završetak izrade sistema - finalna provera celokupnog projekta sa dokumentacijom" meeting="false" start="2022-02-14" duration="2" complete="0" expand="true"/>
+            <task id="20" name="3.3. Izrada projektne dokumentacije - tehnički deo" meeting="false" start="2022-02-14" duration="2" complete="0" expand="true"/>
+            <task id="21" name="3.4. Izrada projektne dokumentacije - korisničko uputstvo" meeting="false" start="2022-02-15" duration="1" complete="0" expand="true"/>
+            <task id="22" name="3.5. Finalizacija celokupnog projekta" meeting="false" start="2022-02-15" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
